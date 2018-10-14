@@ -1,0 +1,102 @@
+.mainImg
+{
+    position: absolute;
+    top: 60px;
+    left: 0%;
+    width: 100%;
+    height: 700px;
+    z-index: -2;
+}
+.addtocartdiv
+{
+position: fixed;
+top : 75px;
+left : 40px;
+background-color: black;
+border-radius: 20px;
+width : 600px;
+height: 460px;
+z-index : 3;
+opacity : 0.2;
+}
+.book-form
+{
+    position: fixed;
+    top : 150px;
+    left : 10%;
+    z-index: 7;
+
+}
+.text-book
+{
+    width : 280px;
+    height: 30px;
+    border-color: grey;
+    border-style: none;
+}
+.addto-link
+{
+    font-size: 20px;
+    text-decoration : none;
+    border : solid;
+    border-radius: 5px;
+    border-width: 2px;
+    
+    position: absolute;
+    left : 300px;
+    top:68px;
+    padding: 2px;
+}
+::placeholder
+{
+    position: relative;
+    left:20px;
+}
+.main-head
+{
+    position: fixed;
+    top: 80px;
+    left: 70px;
+    color: white; 
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 5;
+}
+.book-head
+{
+    color: white; 
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btnadd
+{
+    position: absolute;
+    left : 80px;
+    height:30px;
+    width : 100px;
+}
+.cartcontent
+{
+    font-size :20px;
+    color : white;
+}
+h1
+{
+    color: white; 
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.login-head
+{
+position : fixed;
+top : 100px;
+left : 60%;
+}
+
+.login-text
+{
+    position : fixed;
+    top : 200px;
+    left : 60%;
+}

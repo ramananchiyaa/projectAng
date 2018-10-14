@@ -1,0 +1,68 @@
+.header-style
+{
+    background-color: #4d6d9a;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+}
+.header-content
+{
+    text-align: right;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+.header-text
+{
+    color: white;
+    padding : 12px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.htitle
+{
+    text-align: left;
+    position: absolute;
+    top : 3px;
+    left: 20px;
+    font-size: 30px;
+    color : white; 
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.footer-style
+{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #86b3d1;
+    
+}
+.footer-content
+{
+    position: absolute;
+    bottom: 20px;
+    right: 77%;
+}
+.footer-content-text
+{
+    position: absolute;
+    bottom: 7px;
+    right: 92%;
+    color: whitesmoke;
+}
+.footer-icon
+{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}

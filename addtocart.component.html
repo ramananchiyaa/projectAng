@@ -1,0 +1,19 @@
+<form  class = 'book-form'>
+    <h2 class='book-head'>Enter the books you need</h2>
+    <input type='text' placeholder='search your books' class = 'text-book' name='item' [(ngModel)]="goalText"><br><br>
+    <input type = 'submit' value='add to cart' (click)='addItem()' class="btnadd"><br> 
+    <h1>your list is ({{ itemCount }})</h1>
+    <p *ngFor="let goal of goals" class="cartcontent">
+      {{goal}}
+    </p>
+</form> 
+<img src='assets/images/bookImg2.jpg' class='mainImg'>
+<div class='addtocartdiv'>
+</div>
+<h1 class='main-head'>Add to cart</h1>
+
+<h1 class='login-head'>for more offers and discount<br>
+  please login our website and use</h1>
+<a routerLink='/login'><h1 class='login-text'>Press Here </h1></a>
+
+    

@@ -1,0 +1,25 @@
+
+<form>
+  <fieldset class = 'field-style'>
+  <legend class='legendhead'>Login</legend>
+  
+  <table>
+  
+  <tr>    
+  <th class = 'tsize'>email</th>
+  <td class = 'tsize'><input type = 'email' name = 'email' [(ngModel)] ='email'></td>
+  </tr>
+  
+  <tr>
+  <th class = 'tsize'>password</th>    
+  <td class = 'tsize'><input type = 'password' name = 'password' [(ngModel)]='password'></td>
+  </tr>
+  
+  <tr>
+  <td class = 'btn'><input type = 'submit' value = 'login' (click)='login()'></td>
+  <td class = 'btn'><input type = 'reset'></td>
+  </tr>
+  
+  </table>
+  </fieldset>
+  </form>
