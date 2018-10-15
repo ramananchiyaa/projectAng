@@ -1,0 +1,21 @@
+angular install command  
+ 	npm install -g @angular/cli
+
+crud file 
+	ng new angular-tour-of-heroes	
+
+open command
+	cd angular-tour-of-heroes
+	ng serve --open
+
+To generate component
+	ng generate component heroes
+
+To generate service
+	ng generate service hero
+
+To generate module
+	ng generate module app-routing --flat --module=app
+
+To install in memory Web-api
+	npm install angular-in-memory-web-api --save
